@@ -103,16 +103,6 @@ POST /api/v1/toll-plazas
      -H "Content-Type: application/json" \
      -d '{"sourcePincode": "400001", "destinationPincode": "560001"}'
    ```
-
-## Assignment Criteria
-- Java, Spring Boot, RESTful, no UI
-- Testable by Postman/curl
-- Modular, clean code, design patterns
-- Caching for repeated requests
-- Robust error handling and validation
-- TDD/JUnit test coverage recommended
-- Efficient data handling (CSV for tolls)
-
 ## Notes
 - The route is simulated using Google Directions API.
 - Toll plaza data is loaded from the provided CSV file.
