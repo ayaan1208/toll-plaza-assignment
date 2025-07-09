@@ -106,7 +106,6 @@ POST /api/v1/toll-plazas
 ## Notes
 - The route is simulated using Google Directions API.
 - Toll plaza data is loaded from the provided CSV file.
-- For best results, ensure your CSV is up to date and covers the route.
 
 ## License
 MIT 
